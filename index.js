@@ -55,18 +55,10 @@ function getClickPosition(e){
     c=c+1;
     chance();
     if(c>3){
-        if(c===11){
-            newcreate();
-            alert("u win");
-            newcreate();
-        }else{
+        
             alert("gameover");
             newcreate();
-        }
-         
-       
-         
-}else{
+    }else{
     if((x <100 && y<100)&&(x>=0 && y>=0)){
         x=0;y=0;
     }else if((x <100 && y<200)&&(x>=0 && y>=100)){
